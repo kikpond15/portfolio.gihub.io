@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+#projects{
+  background-color: #F2F2F2;
+}
+
+#publication{
+  background-color: #F2F2F2;
+}
+
+#profile{
+  background-color: #F2F2F2;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.topText a{
+  color: #6E6E6E;
+  text-decoration: none;
+}
+
+.global-nav{
+  display: flex;
+  margin-top: 30px;
+}
+.global-nav li{
+  color: #6E6E6E;
+  font-size: 20px;
+  margin-left: 42px;
+  list-style: none;
+}
+
+.global-nav a{
+  color: #6E6E6E;
+  text-decoration: none;
+}
+
+main{
+  text-align: center;
+  margin-top: 10%;
+}
+
+h1{
+  font-size: 42;
+  color: #6E6E6E;
+}
+
+footer{
+  text-align: center;
+  margin: 50px auto;
+}
+
+.wrapper{
+  margin: 0px auto;
+  padding: 60px 0;
+}
+
+.profile-content{
+  display: flex;
+  justify-content: center;
+}
+
+.profile-txt{
+  width: 640px;
+  text-align: left;
+}
+
+.profile-txt span{
+  font-weight: bold;
+}
+
+.background-content{
+  display: flex;
+  justify-content: center;
+}
+
+.background-txt{
+  width: 640px;
+  text-align: left;
+}
+
+.background-txt span{
+  font-weight: bold;
+}
+
+.publication-content{
+  display: flex;
+  justify-content: center;
+}
+
+.publication-txt{
+  width: 640px;
+  text-align: left;
+}
+
+.publication-txt span{
+  font-weight: bold;
+}
+
+.publication-nav{
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-content{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 6%;
+  margin-bottom: 50px;
+}
+
+.item img{
+  width: 300px;
+}
+
+.item a{
+  color: #000000;
+  text-decoration: none;
+}
+
+.kui-content{
+  display: flex;
+  justify-content: center;
+}
+
+.kui-slider{
+  width: 640px;
+  margin:0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.kui-content img{
+  width: 640px;
+}
+
+
+.kui-txt{
+  width: 640px;
+  text-align: left;
+}
+
+.kui-txt span{
+  font-weight: bold;
+}
+
+.kui-txt a{
+  color: #00BFFF;
+  text-decoration: none;
+}
+
+.back-content{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.back-txt{
+  width: 640px;
+  text-align: left;
+}

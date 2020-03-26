@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>kikportfoilo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- slider jQuerry -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.bxslider').bxSlider({
+        auto: true,
+      });
+    });
+  </script>
+</head>
+
+  <body id="kui">
+    <header>
+      <ul class="topText">
+        <a href="index.html"><h1>KOUTA KIKUCHI</h1></a>
+      </ul>
+      <nav>
+        <ul class="global-nav">
+          <li><a href="index.html"> projects </a></li>
+          <li><a href="publication.html"> publication </a></li>
+          <li><a href="profile.html"> profile </a></li>
+        </ul>
+      </nav>
+    </header>
+
+  </body>
+  <main>
+    <div class="wapper">
+      <h1>KUI Based Puppet</h1>
+      <div class="kui-slider">
+        <ul class="bxslider">
+          <li><img src="img/puppet.png"></li>
+        </ul>
+      </div>
+
+      <div class="kui-content">
+        <p class="kui-txt">
+          <span>概要</span><br>
+          著者らは，実世界の実体の実影をインタフェースとする「影ユーザーインタフェース」(KUI)の研究を行ってきた．本稿では，KUIの活用例として，影絵をインタフェースとして操作を行い，影絵のアニメーションを操作する「Animated KUI」を提案する．影絵のアニメーションに対してスワイプジェスチャーを行うことで，アニメーションの再生，停止，逆再 生を可能とする．
+        </p>
+      </div>
+
+      <!-- <div class="kui-content">
+        <p class="kui-txt">
+          <span>Abstract</span><br>
+          <a href="https://ieeexplore.ieee.org/document/8444807">Animated KUI</a>
+        </p>
+      </div> -->
+
+      <div class="kui-content">
+          <iframe src="https://player.vimeo.com/video/400547810" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="back-content">
+      <p class="back-txt">
+        <a href="index.html">← back</a>
+      </p>
+    </div>
+
+
+
+  </main>
+  <footer>
+    <small>(c)2020 kikpond15@gmail.com</small>
+  </footer>
+</html>
