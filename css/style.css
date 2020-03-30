@@ -1,14 +1,9 @@
 @charset "utf-8";
 
-#projects{
-  background-color: #F2F2F2;
-}
-
-#publication{
-  background-color: #F2F2F2;
-}
-
-#profile{
+body{
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
   background-color: #F2F2F2;
 }
 
