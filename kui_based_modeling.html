@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>kikportfoilo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    
+    <!-- slider jQuerry -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.bxslider').bxSlider({
+        auto: true,
+      });
+    });
+  </script>
+</head>
+
+  <body id="kui">
+    <header>
+      <ul class="topText">
+        <a href="index.html"><h1>KOUTA KIKUCHI</h1></a>
+      </ul>
+      <nav>
+        <ul class="global-nav">
+          <li><a href="index.html"> projects </a></li>
+          <li><a href="publication.html"> publication </a></li>
+          <li><a href="profile.html"> profile </a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+
+  <main>
+    <div class="wapper">
+      <h1>KUI Based Modeling</h1>
+      <div class="kui-slider">
+        <ul class="bxslider">
+          <li><img src="img/kuibm01.JPG"></li>
+          <li><img src="img/kuibm02.png"></li>
+          <li><img src="img/kuibm03.JPG"></li>
+          <li><img src="img/kuibm04.png"></li>
+        </ul>
+      </div>
+
+      <div class="kui-content">
+        <p class="kui-txt">
+          We have proposed Kage User Interface(KUI) which uses the real shadow in the real world as an interface. 
+          Kage is shadow in Japanses. KUI uses gesture operations used on smartphones such as drag and pinch gestures. 
+          As a result, KUI can operate the real shadow as almost same feelings as gesture operation implemented on a touch display of smartphone. 
+          Objects and light sources are changed their position in real world by manipulating real shadows by users. 
+          Based on the result of the movements of object and light source, the position and shape of real shadow changes as well. 
+          For the concept of KUI, the shadow plays a role of two functions, one is the information display and other is the user interface. 
+          KUI applies the concept of direct manipulation of the touch display of smartphone and the cultural concept of shadows, which affects the substance by changing shadows, 
+          to the user interface. We have proposed interactive media that extend the nature of shadows as an application example of KUI.
+          In this paper, we propose a method that enables 3D space movement of an object by performing drag, pinch-in, and pinch-out gestures on the shadow of the object, and creates 3D model based on the movement trajectory of the object.
+        </p>
+      </div>
+
+      <!-- <div class="kui-content">
+        <p class="kui-txt">
+          <span>論文</span><br>
+          <a href="https://www.art-science.org/journal/v16n4/v16n4pp130/artsci-v16n4pp130.pdf">影ユーザーインタフェース：影をインタフェースとした実体とのインタラクション手法の提案</a>
+        </p>
+      </div> -->
+
+      <div class="kui-content">
+          <iframe src="https://player.vimeo.com/video/505612224" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          </iframe>
+      </div>
+    </div>
+
+    <div class="back-content">
+      <p class="back-txt">
+        <a href="index.html">← back</a>
+      </p>
+    </div>
+    
+
+  </main>
+  <footer>
+    <small>(c)2020 kikpond15@gmail.com</small>
+  </footer>
+</html>
